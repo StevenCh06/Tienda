@@ -1,0 +1,89 @@
+
+/* 
+    Created on : 19 sept 2023, 19:26:16
+    Author     : Steven
+    SELECTORES
+*/
+
+
+#encabezado {
+    
+    color: blue;
+    font-weight: bold;
+    
+}
+
+#tituloPrincipal {
+    
+    color: red;
+    font-weight: bold;
+    
+}
+
+/* 
+    Definir CLASES
+*/
+
+.parrafosCentrados{
+    
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    /* Definir se aplico en ejemplo 7 como ejemplo*/
+}
+
+.textoVerde{
+    
+    text-align: center;
+    font-weight: bold;
+    color: greenyellow;
+    /* Definir se aplico en ejemplo 7 como ejemplo*/
+}
+
+*{
+    
+    color: whitesmoke;
+    /* Esto le aplico a TODOS lo que no tengan aplicado un CSS especifico*/
+}
+
+p, h1, span {
+    
+    color: black;
+    /* Define un estilo a TODOS los parrafos (selector de elementos, es decir para todso los p, todos los h1 y todos los span para este caso)*/
+}
+
+h1 {
+    
+    font-size: 16px;
+    /* Esto es porque le va a aplicar algo más especifico a los h1 y todos solo lo que tiene el selector anterior */
+}
+
+/* Clases para enlaces (links) */
+
+a:link {     /* para todos los links */
+    
+    background-color: green;
+    color: white;
+    
+}
+
+a:visited { /* para todos los links ya visitados*/
+    
+  background-color: red;
+  color: white;  
+    
+}
+
+a:hover { /* para todos los links ya que estemos sobre el link*/
+    
+   background-color: orange;
+   color: white;  
+    
+}
+
+/* Otros selectores */
+
+p:nth-child{
+    
+    color: red;
+}
