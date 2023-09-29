@@ -5,14 +5,28 @@
         <title>Titulo que va a tener la página en el navegador</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div style="text-aling: center; width: 50%; margin: 0 auto;">
             
-            <h1>Ejemplo 2</h1>    
-            <p>Bienvenidos al curso</p>
-            
+            <h1>Ejemplo 2</h1>
         </div>
+        
+        <header class="header">
+           <nav class="nav"> <!-- Etiqueta que indica al navegador que es un menú-->
+                <a href="index.html" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo9.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo11_audios.html">Audios;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="video.html">Video;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">Iframes;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">Formularios;</a></li>
+                </ul>
+            </nav>
+        </header>
         
          <div>
             
@@ -21,5 +35,24 @@
            <p style="text-aling: right;">Bienvenidos al curso</p>
             
         </div>
+        
+     <aside id="barraLateral">
+            <h2>Contenido Lateral</h2>
+            <br>
+                <a> Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created, giving the design and production process more freedom.</a>
+        </aside>
+        <section id="contenido">
+            
+            <h1>Progamación Web</h1>
+            
+            <p>Lorem ipsum was conceived as filler text, formatted in a certain way to enable the presentation of graphic elements in documents, without the need for formal copy. Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created, giving the design and production process more freedom.
+
+                It is widely believed that the history of Lorem Ipsum originates with Cicero in the 1st Century BC and his text De Finibus bonorum et malorum. This philosophical work, also known as On the Ends of Good and Evil, was split into five books. The Lorem Ipsum we know today is derived from parts of the first book Liber Primus and its discussion on hedonism, the words of which had been altered, added and removed to make it nonsensical and improper Latin. It is not known exactly when the text gained its current traditional form. However references to the phrase "lorem ipsum" can be found in the 1914 Loeb Classical Library Edition of the De Finibus in sections 32 and 33.</p>
+            
+        </section>
+        
+       
+        <footer id="piePagina">Derechos reservados &COPY;2023</footer>
+        
     </body>
 </html>

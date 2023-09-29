@@ -1,9 +1,9 @@
-
-/* 
+/*
+ 
     Created on : 19 sept 2023, 19:26:16
     Author     : Steven
     SELECTORES
-*/
+
 
 
 #encabezado {
@@ -20,16 +20,16 @@
     
 }
 
-/* 
+ 
     Definir CLASES
-*/
+
 
 .parrafosCentrados{
     
     text-align: center;
     font-weight: bold;
     color: gray;
-    /* Definir se aplico en ejemplo 7 como ejemplo*/
+     Definir se aplico en ejemplo 7 como ejemplo
 }
 
 .textoVerde{
@@ -37,53 +37,89 @@
     text-align: center;
     font-weight: bold;
     color: greenyellow;
-    /* Definir se aplico en ejemplo 7 como ejemplo*/
+     Definir se aplico en ejemplo 7 como ejemplo
 }
 
 *{
     
     color: whitesmoke;
-    /* Esto le aplico a TODOS lo que no tengan aplicado un CSS especifico*/
+     Esto le aplico a TODOS lo que no tengan aplicado un CSS especifico
 }
 
 p, h1, span {
     
     color: black;
-    /* Define un estilo a TODOS los parrafos (selector de elementos, es decir para todso los p, todos los h1 y todos los span para este caso)*/
+     Define un estilo a TODOS los parrafos (selector de elementos, es decir para todso los p, todos los h1 y todos los span para este caso)
 }
 
 h1 {
     
     font-size: 16px;
-    /* Esto es porque le va a aplicar algo más especifico a los h1 y todos solo lo que tiene el selector anterior */
+     Esto es porque le va a aplicar algo más especifico a los h1 y todos solo lo que tiene el selector anterior 
 }
 
-/* Clases para enlaces (links) */
+ Clases para enlaces (links) 
 
-a:link {     /* para todos los links */
+a:link {      para todos los links 
     
     background-color: green;
     color: white;
     
 }
 
-a:visited { /* para todos los links ya visitados*/
+a:visited {  para todos los links ya visitados
     
   background-color: red;
   color: white;  
     
 }
 
-a:hover { /* para todos los links ya que estemos sobre el link*/
+a:hover {  para todos los links ya que estemos sobre el link
     
    background-color: orange;
    color: white;  
     
 }
 
-/* Otros selectores */
+ Otros selectores 
 
 p:nth-child{
     
     color: red;
+}*/
+
+/* Index */
+
+
+#barraLateral {
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 0;
+    width: 20%;
+    background-color: gray;
+    padding: 10px;
+    
+}
+
+#contenido{
+    
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 20%;
+    width: 80%;
+    padding: 10px;
+}
+
+#piePagina {
+    
+    position: absolute;
+    height: 7%;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    padding-top: 15px;
 }
