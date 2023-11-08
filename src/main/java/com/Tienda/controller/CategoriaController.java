@@ -26,6 +26,7 @@ public class CategoriaController {
     public String inicio(Model model) {
         
         List<Categoria> listadoCategorias = categoriaService.getCategorias(false);
+        //List<Categoria> listadoCategorias = categoriaService.getCategoriasDescripcion("pad"); //Prueba ejemplo para findByDescripcionContainingIgnoreCase
         model.addAttribute("categorias",listadoCategorias);
         model.addAttribute("totalCategorias", listadoCategorias.size());
         

@@ -50,6 +50,11 @@ public class CategoriaServiceImpl implements CategoriaService {
     
         categoriaDao.delete(categoria);
     }
+
+    @Override
+    public List<Categoria> getCategoriasDescripcion(String descripcion) {
+       return categoriaDao.findByDescripcionContainingIgnoreCase(descripcion);
+    }
     
     
      
