@@ -17,7 +17,6 @@ import lombok.Data;
 @Data // Para la creación automatica de SET y GET de los atributos
 @Entity  
 @Table(name = "usuario")
-
 public class Usuario implements Serializable{
     
     private static final long serialVersionUID = 1L;
